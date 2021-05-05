@@ -34,7 +34,7 @@ body {
   color: rgb(252, 252, 252);
 }
 .container {
-  background: #000;
+  background: #000 !important;
   color: #fff;
 }
 #QNA {
