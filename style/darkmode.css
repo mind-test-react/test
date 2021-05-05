@@ -33,6 +33,13 @@ body {
   background: #111;
   color: rgb(252, 252, 252);
 }
+.container {
+  background: #000;
+  color: #fff;
+}
+#QNA {
+  color: #fff;
+}
 .logo {
   opacity: 1;
 }
