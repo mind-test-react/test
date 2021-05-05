@@ -3,6 +3,38 @@
   display: none;
   opacity: 0;
 }
+.qnaBox {
+  padding: 20px 30px;
+}
+.question {
+  word-break: keep-all;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.title {
+  text-align: center;
+}
+.answer-radio {
+  margin-right: 5px;
+}
+.answer {
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 5px;
+}
+.go-next-btn {
+  margin: 30px;
+  width: 120px;
+  height: 45px;
+  background: rgba(0, 135, 245, 0.7);
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+.go-next-btn:hover {
+  background: rgba(0, 135, 245, 1.0);
+}
 .status-bar {
   margin: 0 12.5% 20px;
   width: 75%;
@@ -33,9 +65,6 @@
   font-weight: bolder;
   animation: fade-in 0.5s ease-in-out 0.3s forwards;
   opacity: 0;
-}
-.answer {
-  width: 100%;
 }
 .a {
   margin: 20px 10% 0 10%;
@@ -77,12 +106,6 @@
     font-size: 32px;
     font-size: 2rem;
   }
-  .answer {
-    margin: 0 10%;
-    width: 80%;
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
   .a {
     margin: 15px 0;
     padding: 20px 30px;
@@ -100,10 +123,6 @@
     margin-bottom: 80px;
     font-size: 40px;
     font-size: 2.5rem;
-  }
-  .answer {
-    font-size: 28.8px;
-    font-size: 1.8rem;
   }
   .a {
     padding: 25px 35px;
@@ -123,11 +142,5 @@
     width: 100%;
     font-size: 40px;
     font-size: 2.5rem;
-  }
-  .answer {
-    margin: 0;
-    width: 100%;
-    font-size: 28.8px;
-    font-size: 1.8rem;
   }
 }

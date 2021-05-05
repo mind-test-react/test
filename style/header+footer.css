@@ -10,6 +10,7 @@
   box-shadow: #ddd 0 0 10px 5px;
   background:rgb(252, 252, 252);
   animation: fade-in 0.3s ease-in-out;
+  color: #000;
 }
 .logo {
   display: inline-block;
@@ -52,6 +53,7 @@
   box-sizing: border-box;
   margin: 10px 0;
   height: 30px;
+  color: #000;
 }
 .highlight {
   color: rgb(87, 58, 189);
